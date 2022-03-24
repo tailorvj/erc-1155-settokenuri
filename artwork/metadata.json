@@ -1,0 +1,40 @@
+{
+    "description": "PolyAP is proof of attendance with ERC-1155 on the Polygon blockchain",
+    "external_url": "https://www.artwork.rocks/test-event-3/", 
+    "home_url": "https://www.artwork.rocks",
+    "image_url": "ipfs://QmbTJxEfRyurhtWufZ8N53swRGNmUZS9Y5wCALtmuX7pQb",
+    "name": "First test mint to Mumbai - March 24th, 2022",
+    "year": 2022,
+    "tags": [
+      "poap",
+      "event",
+      "polygon",
+      "experimental"
+    ],
+    "attributes": [
+      {
+        "trait_type": "startDate",
+        "value": "24-Mar-2022"
+      },
+      {
+        "trait_type": "endDate",
+        "value": "24-Mar-2022"
+      },
+      {
+        "trait_type": "virtualEvent",
+        "value": "true"
+      },
+      {
+        "trait_type": "city",
+        "value": ""
+      },
+      {
+        "trait_type": "country",
+        "value": ""
+      },
+      {
+        "trait_type": "eventURL",
+        "value": "https://www.artwork.rocks/test-event-3/"
+      }
+    ]
+  }

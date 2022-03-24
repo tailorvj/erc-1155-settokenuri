@@ -1,0 +1,20 @@
+{
+  "name": "erc-1155-settokenuri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tailor VJ <tailor.vj@gmail.com> (https://tailorvj.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@truffle/hdwallet-provider": "^2.0.4",
+    "web3": "^1.7.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.0"
+  }
+}
