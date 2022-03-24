@@ -8,12 +8,12 @@ import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Burnable.sol";
 import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol";
 
 /// @custom:security-contact tailor.vj@gmail.com
-contract PolyAP is ERC1155, AccessControl, Pausable, ERC1155Burnable, ERC1155Supply {
+contract ERC1155SetTokenURI is ERC1155, AccessControl, Pausable, ERC1155Burnable, ERC1155Supply {
     bytes32 public constant URI_SETTER_ROLE = keccak256("URI_SETTER_ROLE");
     bytes32 public constant PAUSER_ROLE = keccak256("PAUSER_ROLE");
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
 
-    string public name = "PolyAP";
+    string public name = "ERC1155SetTokenURI";
 
     mapping (uint256 => string) private _uris;
     constructor() ERC1155("") {
